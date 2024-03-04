@@ -1,0 +1,17 @@
+html{
+    background-color: #000000;
+}
+img{
+    height: 500px;
+    width: 600px;
+    margin-left: 500px;
+    padding: 50px;
+    background-color: #fff;
+}
+p{
+    text-align: center;
+    color: #fff;
+}
+img{
+    border-radius: 20px;
+}

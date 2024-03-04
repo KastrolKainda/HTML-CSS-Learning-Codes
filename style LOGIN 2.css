@@ -1,0 +1,81 @@
+html{   
+  background-color: rgba(202, 169, 169, 0.952);
+}
+form{
+   
+    background-color: rgba(104, 104, 234, 0.851);
+    color: #fff;
+    width: 410px;
+    height: 565px;
+    border-radius: 10px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 110px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 15px;
+    font-weight: bold;
+}
+label{
+    font-size: 22px;
+    font-weight: 7px;
+    font-weight: 10px;
+    padding-left: 15px;
+}
+p{
+    text-align: center;
+}
+button{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 7px;
+    font-weight: 10px;
+    height: 40px;
+    background-color: green;
+    border-radius: 7px;
+    border: 0px solid;
+    padding: 0px;
+    margin: 17px;
+    width: 370px;
+    padding-left: 10px;
+}
+input{
+    width: 365px;
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="Password"]
+{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 32px;
+color: #000000;
+font-size: 26px;
+padding-left: 0px;
+margin: 17px;
+}
+
+::placeholder{
+    color: rgba(64, 30, 30, 0.463);
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    text-decoration: unset;
+    font-size: 30px;
+}
+
+button:hover{
+    text-decoration: unset;
+    font-size: 30px;
+    background-color: blue;
+}

@@ -1,0 +1,40 @@
+    /*for the background colour*/
+html{
+    background-color: blue;
+}
+
+    /*for the sticking name */
+h1{
+    position: sticky;
+    top: 0px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "MV Boli";
+    border: 1px solid;
+    background-color: aqua;
+    color: red;
+    padding: 5px;
+    text-align: center;
+}
+
+/* image insertion of the logo*/
+img{
+    float: left;
+    position: sticky;
+    top: 0px;
+    width: 100px; 
+    height: 150;
+
+}
+/*for the titiles or heading */
+h3{
+ 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "MV Boli";
+    border: 1px solid;
+    color: red;
+    padding: 5px;
+}

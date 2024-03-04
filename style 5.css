@@ -1,0 +1,35 @@
+
+/* We will talk about the Pseudo Classes
+  1. The Link Class
+  2. The Hover Class
+  3. The List Class 
+*/
+html{
+    background-color: aqua;
+}
+/* for a link class that is not visited */
+a:link{
+    color: rgba(255, 0, 34, 0.904);
+}
+/* for the link that is already visited before */
+a:visited{
+    color: blue;
+}
+
+
+/* for the Button Class called "hover" 
+which shows it affect when you click on it
+ */
+button:hover{
+    color: red;
+    background-color: blue;
+    border-width: 0px;
+    border-radius: 2px;
+    border-style: outset;
+}
+/* for the Button Class called "active"
+which shows its effect when you hold or click on the button
+ */
+button:active{
+    background-color: green;
+}

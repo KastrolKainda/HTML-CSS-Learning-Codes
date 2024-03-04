@@ -1,0 +1,44 @@
+    /*this is for background image*/
+html{
+    color: black;
+    background-image: url("images/IMG_20211005_094057.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    /*this is for the title */
+h1{
+    color: blue;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-left-color: red;
+    background-color: black;
+    border-left-width: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+     /*this is for heading which introduction*/
+h3{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+     /*this is for main body */
+#int1{
+    color: brown;
+    font-style: italic;
+    font-size: 22px;
+    color: brown;
+    background-color: whitesmoke;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+    /* this for putting one word or sentences together 
+#my{
+    background: linear-gradient(to right, grey, blue, violet, brown, red);
+}
+

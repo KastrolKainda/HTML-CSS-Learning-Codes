@@ -1,0 +1,25 @@
+/* background colour
+*/
+html{
+    color: #000000;
+    background-color: rgba(0, 255, 255, 0.37);
+}
+
+    /* for Lets Learn */
+h1{
+    border: 1px solid;
+    padding: 30px;
+    width: 200px;
+    border-color: black;
+
+    /* for text decoration and shadow */
+    text-shadow: 3px 2px 2px red, 5px 3px 2px blue;
+
+    /* for box decoration and shadow */
+    box-shadow: 6px 4px 2px blue;
+
+    color: whitesmoke;
+    background-color: black;
+}
+
+  

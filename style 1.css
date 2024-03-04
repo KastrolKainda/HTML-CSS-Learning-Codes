@@ -1,0 +1,23 @@
+h1{
+    background-color: blue;
+    color: white;
+}
+h4{
+    color: black;
+}
+#par1{
+    background-color: green;
+    color: cyan;
+}
+#par2{ 
+    background-color: black;
+    color: red;
+}
+#par3{
+    background-color: brown;
+    color: chartreuse;
+}
+
+body{
+    background-color:aqua;
+}

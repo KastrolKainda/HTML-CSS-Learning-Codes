@@ -1,0 +1,42 @@
+html{
+    background-color: blue;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+form{
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 50px;
+    margin-left: 400px;
+    height: 1950px;
+    width: 780px;
+}
+.love div{
+    margin-left: 130px;
+    padding-top: 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 500px;
+    height: 270px;
+}
+
+button{
+    background-color: green;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    margin-left: 250px;
+    border-radius: 5px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    font-size: 30px;
+}

@@ -1,0 +1,16 @@
+html{
+    background-color: #001eff; 
+ }
+ form{
+    color: #fff;
+    background-color: #000000;
+    margin-left: 450px;
+    margin-top: 210px;
+    height: 350px;
+    width: 700px;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 20px;
+    box-shadow: 10px 10px 5px #fff;
+ }

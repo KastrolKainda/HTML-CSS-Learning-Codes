@@ -1,0 +1,11 @@
+img{
+    height: 180px;
+    width: 200px;
+    border-radius: 5px;
+}
+th{
+    border: 1px solid;
+    padding: 3px;
+    text-align: left;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Form</title>
+</head>
+
+<body bgcolor="aqua">
+
+    <h3>ENTER THE REQUIRED DETAILS</h3>
+    
+    <h4><u>Personal Details:</u></h4>
+            <form action="get_them.PHP">
+
+                <!--Entering the Personal Details-->
+            <label for="first_name">First Name: </label> <br>
+                <input type="text" id="first_name" name="first_name" placeholder="name" required>
+
+                    <br><br>
+                    <label for="middle_name">Middle Name: </label><br>
+                    <input type="text" id="middle_name" name="middle_name" placeholder="name" >
+    
+                        <br><br>
+                        <label for="last_name">Last Name: </label><br>
+                        <input type="text" id="last_name" name="first_name" placeholder="name" required>
+                            <br><br>
+
+                        <label for="title">Title: </label><br>
+                        
+                        <label for="Mr">Mr</label>
+                        <input type="radio" value="Mr" id="Mr" name="title">
+
+                        <label for="Mrs">Mrs</label>
+                        <input type="radio" value="Mrs" id="Mrs" name="title">
+
+                        <label for="Miss">Miss</label>
+                        <input type="radio" value="Miss" id="Miss" name="title">
+                       
+                        <label for="Mr">Prof</label>
+                        <input type="radio" value="Prof" id="Prof" name="title">
+
+                        <label for="Mr">Dr</label>
+                        <input type="radio" value="Dr" id="Dr" name="title">   
+                        <br><br>
+
+                        <!-- for payment options-->
+                        <label for="payment">Payment:</label><br>
+
+                        <label for="Airtel">Airtel Money</label>
+                        <input type="radio" id="Airtel" value="Airtel" name="Payment">
+
+                        <label for="Zamtel">Zamtel Money</label>
+                        <input type="radio" id="Zamtel" value="Zamtel" name="Payment">
+
+                        <label for="MTN">MTN Money</label>
+                        <input type="radio" id="MTN" value="MTN" name="Payment">
+                        <br><br>
+
+                          <!--gmail address-->
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="abc@gmial.com">
+                        <br><br>
+
+                          <!--phone numbers-->
+                        <label for="phone_number">Phone Number:</label><br>
+                        <input type="tel" id="phone_number" name="phone" max="11">
+                        <br><br>
+
+                        <!--for bith day-->
+                        <label for="birthday">Birthday:</label><br>
+                        <input type="date" id="birthday" name="birthday" min="2000-01-01" max="2025-01-01">
+                        <br><br>
+
+                        <!--For file uploading-->
+                        <label for="upload">Upload a File:</label><br>
+                        <input type="file" id="upload" name="upload" accept="*.all">
+
+                        <br><br>
+
+                            <!--check box for everything-->
+                        <label> <input type="checkbox"/>Click me </label>
+
+                        <br><br>
+                            <!--for submission of the form-->
+                        <input type="Submit" style="color:rgb(68, 0, 255)" font-size="10px">
+                    
+                        <br><br>
+
+                        <imput type="Reset">
+                     
+
+            </form>
+   
+
+    </body>
+
+</html>

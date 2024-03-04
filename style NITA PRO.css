@@ -1,0 +1,45 @@
+    /* FOR THE ENTIRE BACKGROUND */
+html{
+    background-color: #000000;
+    color: #fff;
+}
+    /* FOR THE TABLE HEAD ONLY */
+th{
+    text-align: left;
+}
+    /* FOR THE HEADING PART */
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 47px;
+    background-color: gainsboro;
+    color: #000000;
+}
+    /* FOR THE PARAGRAPHY PART ONLY */
+p{
+    text-align: center;
+}
+    /* FOR THE ENTIRE CONTENT IN THE TABLE */
+table{
+    margin: auto;
+    border: 1px;
+    padding: 10px;
+    height: 100px;
+    width: 500px;
+}
+    /* FOR THE BODY PART ONLY */
+body{
+    background-color: rgba(36, 149, 193, 0.951);
+    height: 400px;
+}
+    /* FOR THE LINKS */
+a{
+    color: blue;
+}
+
+    /* FOR THE ENTIRE LINKS ONLY */
+a:hover{
+    background-color: #fff;
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS CODES</title>
+    <link rel="stylesheet" type="text/css" href="style 2.css" >
+
+</head>
+
+    <body>
+
+<h1> THE FONT AND BORDER WEBSITE</h1>
+
+        <!--FIRST TITLE-->
+<h3>Many-To-One:</h3>
+
+<p id="par1">Many-to-one model maps many user level threads to one Kernel-level thread. Thread 
+    management is done in user space by the thread library.<span style="color: red"> When thread makes a blocking 
+    system call, the entire process will be blocked</span>. Only one thread can access the Kernel at 
+    a time, so multiple threads are unable to run in parallel on multiprocessors.
+    If the user-level thread libraries are implemented in the operating system in such a way 
+    that the system does not support them, then the Kernel threads use the many-to-one 
+    relationship modes
+    </p>
+
+        <!--SECOND TITLE-->
+  <h3>One-To-One:</h3>
+
+  <p id="par2">There is one-to-one relationship of user-level thread to the kernel-level thread. This model 
+    provides more concurrency than the many-to-one model. <span style="color: red;"> also allows another thread to 
+    run when a thread makes a blocking system call</span>. It supports multiple threads to execute 
+    in parallel on microprocessors.
+    Disadvantage of this model is that creating user thread requires the corresponding Kernel 
+    thread. OS/2, windows NT and windows 2000 use one to one relationship model
+
+  </p>  
+<br><br>
+
+  <!--for confarmition that you have read the notes-->
+<p id="par3">click on the button to show that you have read:</p>
+    <form>
+        <label>
+        <input id="Submit" type="submit" >
+        </label>
+    </form>
+
+</body>
+
+
+
+</html>

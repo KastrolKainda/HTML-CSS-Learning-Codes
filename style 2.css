@@ -1,0 +1,52 @@
+        /*THE TOP HEADER PART */
+h1{ 
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-color: blue;
+    font-family: sans-serif, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    background-color: aqua;
+    padding: 10px;
+}
+
+    /*THE DEADINGS*/
+h3{
+    font-style: initial;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+      /*THE FIRST PARAGRAPHY */
+#par1{
+    font-style: italic;
+    background-color: green;
+
+}
+    /*THE SECOND PARAGRAPHY */
+#par2{
+    font-style: italic;
+    background-color: black;
+
+}
+
+      /*THE MAIN BODY OF THE WEBSITE */
+body{
+    color: white;
+    background-color: blue;
+
+}
+    /*FOR SUBMISSION */
+input{
+    border-radius: 10px;
+    border-width: 2px, 10px, 17px;
+    font-style: italic;
+    font-size: 20px;
+    background-color: white;
+    color: red;
+    padding: 5px;
+
+    
+}

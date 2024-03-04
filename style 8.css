@@ -1,0 +1,55 @@
+    /* for the entire bakground of the login form */
+html{
+    background-image: url(Nature-Images/tehzeeb-kazmi-TveLZhcHjfk-unsplash.jpg);
+    color: #000000;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ /* for log-in title in the system */
+ h2{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+ }
+    /*for entering of details in the system*/
+form{
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #000000;
+    height: 345px;
+    width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+    /*for label part */
+label{
+    padding-left: 0px;
+    margin: 0px;
+}
+    /*for input box and its specifications */
+input{
+    height: 27px;
+    width: 229px;
+    border-radius: 7px;
+}
+    /*for button of login in */
+button{
+    height: 30px;
+    width: 235px;
+    text-align: center;
+    padding: 0px;
+    margin: opx;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}
+    /* for hover button when you press in login */
+button:hover{
+    color: rgba(255, 255, 255, 0.507);
+    background-color: rgba(0, 128, 38, 0.877);
+}
